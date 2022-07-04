@@ -1,9 +1,8 @@
 #include <stdio.h>
 /**
  *main is our entry point
- *Return is zero always
  *
- * @return int
+ * Return: 0 success
  */
 int main(void)
 {
