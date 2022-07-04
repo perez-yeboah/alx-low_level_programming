@@ -2,6 +2,8 @@
 /**
  *main is our entry point
  *Return is zero always
+ *
+ * @return int
  */
 int main(void)
 {
