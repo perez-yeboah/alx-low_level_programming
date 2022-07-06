@@ -1,21 +1,3 @@
-#include "main.h"
-
-/**
- * main - Entry point of app
- *
- * Return: 1 success
- */
-int main(void)
-{
-
-	print_alphabet();
-
-	_putchar('\n');
-
-
-	return (0);
-}
-
 /**
  * print_alphabet - print letters
  *
