@@ -14,7 +14,7 @@ int main(void)
 
 	int size = sizeof(line) / sizeof(line[0]);
 
-	for(i=0; i< size - 1; i++)
+	for (i=0; i< size - 1; i++)
 	{
 		_putchar(line[i]);
 	}
