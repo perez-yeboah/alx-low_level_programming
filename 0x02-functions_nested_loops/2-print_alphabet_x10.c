@@ -2,7 +2,7 @@
 
 
 /**
- * print_alphabet - print letters
+ * print_alphabet_x10 - print letters
  *
  */
 void print_alphabet_x10(void)
