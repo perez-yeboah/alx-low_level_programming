@@ -5,7 +5,7 @@
  * _islower - checks if letter is lowercase
  * @c: Tje character to print
  *
- * Return : 1 if lower
+ * Return: 1 if lower
  */
 int _islower(int c)
 {
