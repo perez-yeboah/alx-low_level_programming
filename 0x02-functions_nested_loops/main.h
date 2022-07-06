@@ -4,4 +4,4 @@
  *
  * Return: on success 1
  */
-int _putchar(char c)
+int _putchar(char c);
