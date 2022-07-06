@@ -1,12 +1,10 @@
-void print_alphabet(void);
-
 /**
  * print_alphabet - print letters
  *
  */
 void print_alphabet(void)
 {
-	char line[] = "abcfefghijklmnopqrstuvwxyz\n";
+	char line[] = "abcfefghijklmnopqrstuvwxyz";
 
 	int i = 0;
 
@@ -16,4 +14,6 @@ void print_alphabet(void)
 	{
 	        _putchar(line[i]);
 	}
+
+	_putchar('\n');
 }
