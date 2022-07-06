@@ -5,7 +5,7 @@
  *
  * Return: 1 success
  */
-int main() {
+int main(void) {
 
 	char line[] = "_putchar\n";
 
