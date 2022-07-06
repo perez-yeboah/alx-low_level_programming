@@ -5,6 +5,3 @@
  * Return: on success 1
  */
 int _putchar(char c);
-
-
-//void print_alphabet(void);
