@@ -4,7 +4,7 @@
  */
 void print_alphabet(void)
 {
-	char line[] = "abcfefghijklmnopqrstuvwxyz";
+	char line[] = "abcfefghijklmnopqrstuvwxyz\n";
 
 	int i = 0;
 
