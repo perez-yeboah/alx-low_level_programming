@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include 'main.h'
 
 /**
  * main - Entry point of app
@@ -7,7 +7,17 @@
  */
 int main() {
 
-	printf("_putchar\n");
+	char line[] = "_putchar\n";
+
+	int i = 0;
+
+	int size = sizeof(line) / sizeof(line[0]);
+
+	for(i=0; i< size - 1; i++)
+	{
+		_putchar(line[i]);
+	}
+
 
 	return (0);
 }
