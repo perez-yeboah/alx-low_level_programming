@@ -2,7 +2,7 @@
 
 
 /**
- * _isabs - checks if letter is uppercase
+ * _abs - checks if letter is uppercase
  * @c: Tje character to print
  *
  * Return: 1 if upper or lower
