@@ -18,7 +18,7 @@ void jack_bauer(void)
 				char min = j < 10 ? '0' + j : j;
 				char hr = i < 10 ? '0' + i : i;
 
-				_putchar(hr + ':' + min + ';' + sec + '\n');
+				_putchar(i + ':' + j + ';' + l + '\n');
 			}
 		}
 	}
