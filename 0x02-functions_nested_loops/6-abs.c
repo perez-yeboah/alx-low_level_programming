@@ -7,7 +7,7 @@
  *
  * Return: 1 if upper or lower
  */
-int _isabs(int c)
+int _abs(int c)
 {
 	return (c < 0 ? -1 * c : c);
 }
