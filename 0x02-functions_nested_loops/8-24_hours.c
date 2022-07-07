@@ -14,9 +14,9 @@ void jack_bauer(void)
 		{
 			for (l = 0; l < 60; l++)
 			{
-				char sec = l < 10 ? '0' + l : l;
-				char min = j < 10 ? '0' + j : j;
-				char hr = i < 10 ? '0' + i : i;
+				//char sec = l < 10 ? '0' + l : l;
+				//char min = j < 10 ? '0' + j : j;
+				//char hr = i < 10 ? '0' + i : i;
 
 				_putchar(i + ':' + j + ';' + l + '\n');
 			}
