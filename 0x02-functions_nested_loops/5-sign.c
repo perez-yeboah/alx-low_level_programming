@@ -9,7 +9,7 @@
  */
 int print_sign(int c)
 {
-	if (c > 0) 
+	if (c > 0)
 	{
 		_putchar('+');
 		return (1);
@@ -17,12 +17,11 @@ int print_sign(int c)
 	{
 		_putchar('-');
 		return (-1);
-	
-	} else
+	}
+	else
 	{
 		_putchar('0');
 		return (0);
-	
 	}
 
 }
