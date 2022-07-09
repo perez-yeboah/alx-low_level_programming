@@ -1,6 +1,12 @@
 #include <stdio.h>
 #include <stdbool.h>
 
+/**
+ * isPrime - is prince
+ * @n: num
+ *
+ * Return: boolean
+ */
 bool isPrime(long n)
 {
 	int count = 0;
@@ -17,9 +23,14 @@ bool isPrime(long n)
 	return (count == 2 ? true : false);
 }
 
+/**
+ * main - pint
+ *
+ * Return - 0
+ */
 int main(void)
 {
-	long num = 100;
+	long num = 612852475143;
 	long max = 0;
 
 	long i;
