@@ -3,6 +3,8 @@
 /**
  * _strlen - length of string
  * @s: string
+ *
+ * Return: int size
  */
 int _strlen(char *s)
 {
