@@ -14,8 +14,8 @@ void puts_half(char *str)
 	{
 		temp[len++] = *str++;
 	}
-	/*n = len % 2 == 1 ? (len - 1) / 2 : len / 2;*/
-	n = len / 2;
+	n = len % 2 == 1 ? (len - 1) / 2 : len / 2;
+	/* n = len / 2;*/
 
 	while (n < len)
 	{
