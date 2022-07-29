@@ -6,7 +6,7 @@
  * @b: int size of memory to be allocated
  * Return: pointer to memory allocation
  */
-void *malloc_cjecked(unsigned int b)
+void *malloc_checked(unsigned int b)
 {
 	void *ptr;
 	ptr = malloc(b);
