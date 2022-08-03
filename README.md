@@ -1,1 +1,1 @@
-read
+structures_typedef
